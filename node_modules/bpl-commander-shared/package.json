@@ -1,0 +1,17 @@
+{
+  "name": "bpl-commander-shared",
+  "version": "1.0.0",
+  "description": "Shared types and utilities for BPL Commander",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["bpl", "types", "shared"],
+  "author": "BPL Team",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
